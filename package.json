@@ -2,7 +2,7 @@
   "name": "postcss-flexbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./builder/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./index.js"
@@ -15,6 +15,6 @@
     "postcss-parser-tests": "^6.3.1"
   },
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
   }
 }

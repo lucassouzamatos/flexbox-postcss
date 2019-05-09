@@ -1,6 +1,6 @@
-var gulp = require('gulp');
-var postcss = require('gulp-postcss');
-var flexboxStylesheet = require('./index');
+const gulp = require('gulp');
+const postcss = require('gulp-postcss');
+const flexboxStylesheet = require('../builder/index');
 
 gulp.task('postcss', function () {
     return gulp.src('./style.css')
