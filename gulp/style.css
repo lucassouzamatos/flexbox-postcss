@@ -1,3 +1,4 @@
-body {
-    test: 'test'
+.container {
+    direction: horizontal; 
+    font-size: 12px;
 }
