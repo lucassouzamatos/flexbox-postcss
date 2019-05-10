@@ -5,7 +5,10 @@ const _ = require('lodash');
  * @property {string} direction
  */
 const props = {
-    direction: 'flex-direction'
+    direction: 'flex-direction',
+    wrap: 'flex-wrap',
+    horizontalJustify: 'justify-content',
+    verticalJustify: 'align-items'
 }
 
 /**
@@ -13,8 +16,10 @@ const props = {
  * @property {string} vertical
  */
 const values = {
-    horizontal: 'column',
-    vertical: 'row'
+    horizontal: 'row',
+    vertical: 'column',
+    left: 'flex-start',
+    right: 'flex-end'
 };
 
 /**
